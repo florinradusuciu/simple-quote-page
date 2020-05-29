@@ -1,0 +1,40 @@
+/*Resetare CSS*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 100vh;
+  background: url('assets/freedom.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+#profile-card{
+  width: 480px;
+  max-width: calc(100vw-10px);
+  background-color: hsla(0,0%,100%,0%,.0);
+}
+#first-content, #second-content{
+  background-color: hsla(0,0%,100%,.0);
+  width:90%;
+  margin:auto;
+  text-align: center;
+}
+#first-content{
+  margin-top: -100px;
+}
+h1{
+  
+  font-family: cursive;
+  font-size: 20px;
+}
+h2{
+  
+  font-family: cursive;
+  font-size: 7px;
+}
